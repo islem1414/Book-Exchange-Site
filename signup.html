@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>إنشاء حساب</title>
+    <link rel="stylesheet" href="front.css">
+</head>
+<body>
+    <header>
+        <h1>إنشاء حساب</h1>
+        <nav>
+            <ul>
+                <li><a href="front.html">الرئيسية</a></li>
+                <li><a href="login.html">تسجيل الدخول</a></li>
+                <li><a href="signup.html">إنشاء حساب</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h2>نموذج إنشاء الحساب</h2>
+            <form id="signup-form">
+                <label for="name">الاسم الأول:</label>
+                <input type="text" id="name" name="name" placeholder="الاسم" required>
+                
+                <label for="email-signup">البريد الإلكتروني:</label>
+                <input type="email" id="email-signup" name="email-signup" placeholder="example@gmail.com" required>
+                
+                <label for="password-signup">كلمة المرور:</label>
+                <input type="password" id="password-signup" name="password-signup" placeholder="********" required>
+                
+                <label for="confirm-password">تأكيد كلمة المرور:</label>
+                <input type="password" id="confirm-password" name="confirm-password" placeholder="********" required>
+                
+                <button type="submit">إنشاء الحساب</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>© 2025 جميع الحقوق محفوظة.</p>
+    </footer>
+</body>
+</html>
